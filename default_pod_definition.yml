@@ -1,0 +1,18 @@
+apiVersion:
+kind:
+metadata:
+  name: xxxx-pod
+  labels:
+    app: xxxx
+    type: xxxx
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+
+
+## After created file
+## CMD - kubectl create -f pod-definition.yml
+## How to see it > kubectl get pods
+## For detail info > kubectl describe pod myapp-pod
+

@@ -1,0 +1,9 @@
+minikube start
+kubectl create -f deployment.yaml
+kubectl get deployments
+#to see the pods
+kubectl get pods
+#get the details of deployment
+kubectl describe deployment myapp-deployment
+# get all
+kubectl get all
